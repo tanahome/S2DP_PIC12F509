@@ -27,6 +27,11 @@ It controls four system signals, DATA, CLOCK, WP_, and RESET_, on boot-time usin
 - 7 GP0: Unused (OUTPUT with LOW)
 - 8 VSS
 
+## Typical Application Circuit
+
+![Typical application circuit](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/schematic.png)
+
+
 ## How to Build
 ### Setup Toolchain
 Download and install MPLAB X IDE.
