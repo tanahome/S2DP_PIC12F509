@@ -33,70 +33,70 @@ Download and install MPLAB X IDE.
 
 https://www.microchip.com/mplab/mplab-x-ide
 
-![MPLAB X IDE installer](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/xide_installer.png)
+![MPLAB X IDE installer](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/xide_installer.png)
 
 Download and install MPLAB XC8 Compiler.
 
 https://www.microchip.com/mplab/compilers
 
-![MPLAB XC8 Compiler installer](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/xc8_installer.png)
+![MPLAB XC8 Compiler installer](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/xc8_installer.png)
 
 Startup MPLAB X IDE.
 
-![MPLAB X IDE desktop icon](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/xide_icon.png)
+![MPLAB X IDE desktop icon](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/xide_icon.png)
 
 ### Create S2DP Project
 Select `New Project...` from `File` menu.
 
-![Select New Project](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/newproject1.png)
+![Select New Project](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/newproject1.png)
 
 Select `Microchip Embedded` from `Categories:` and `Standalone Project` from `Projects:`.
 
-![Choose Project](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/newproject2.png)
+![Choose Project](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/newproject2.png)
 
 Select `PIC12F509` as `Device:`.
 
-![Select Device](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/newproject3.png)
+![Select Device](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/newproject3.png)
 
 Do nothing.  Just press `Next >`.
 
-![Select Header](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/newproject4.png)
+![Select Header](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/newproject4.png)
 
 Select using PIC writer if you have.  If you use universal programmer such as TL866CS, select
 `PICKit3` or something.
 
-![Select Tool](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/newproject5.png)
+![Select Tool](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/newproject5.png)
 
 Select `XC8` as a compiler.
 
-![Select Compiler](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/newproject6.png)
+![Select Compiler](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/newproject6.png)
 
 Enter project name, e.g, *S2DP*, in `Project Name:`
 
-![Select Project Name and Folder](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/newproject7.png)
+![Select Project Name and Folder](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/newproject7.png)
 
 Project *S2DP* has been created.
 
-![Projects](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/newproject8.png)
+![Projects](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/newproject8.png)
 
 ### Compile S2DP
 Download main.c from [GitHub repository](https://github.com/tanahome/S2DP_PIC12F509/blob/master/main.c).
 
 Import main.c into the project.  Right click `Source Files` of the project tree of *S2DP*, select `Add Existing Item...` and select downloaded main.c file.
 
-![Add main.c](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/compile1.png)
+![Add main.c](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/compile1.png)
 
 If main.c is imported successfully, it would appear in `Source Files`.
 
-![Imported main.c](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/compile2.png)
+![Imported main.c](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/compile2.png)
 
 Double click main.c and show it in the right area.
 
-![Show main.c](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/compile3.png)
+![Show main.c](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/compile3.png)
 
 Press the hammer icon to test the compiler.
 
-![Build button](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/compile4.png)
+![Build button](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/compile4.png)
 
 
 
@@ -129,7 +129,7 @@ After (example with 12Byte data):
 
 Build again.  Press the hammer icon.
 
-![Build button](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/compile4.png)
+![Build button](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/compile4.png)
 
 If successfully built, a _hex_ file is appeared in the output directory after the following message is shown.
 
@@ -150,37 +150,37 @@ This document shows the way to write compiled program to PIC device with TL866CS
 
 Startup MiniPro Programmer.
 
-![MiniPro desktop icon](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/program1.png)
+![MiniPro desktop icon](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/program1.png)
 
 Select `Search and Select IC` from `Select IC` menu.
 
-![Search and select IC](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/program2.png)
+![Search and select IC](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/program2.png)
 
 Select `PIC12F509` as device.
 
-![Select PIC12F509](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/program3.png)
+![Select PIC12F509](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/program3.png)
 
 Open _hex_ file.  Select `Open` from `File` menu.
 
-![Open file](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/program4.png)
+![Open file](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/program4.png)
 
 Open _S2DP.X.production.hex_ file generated by MPLAB Toolchain.
 
-![Select hex file](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/program5.png)
+![Select hex file](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/program5.png)
 
 `File load Options` window is shown.  Just press `OK` button.
 
-![File load options](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/program6.png)
+![File load options](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/program6.png)
 
 Select `Program` from `Device` menu.
 
-![Program](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/program7.png)
+![Program](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/program7.png)
 
 `Chip Program` window is shown.  Set PIC12F509 device on TL866CS and press `Program` button.
 
-![Chip Program window](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/program8.png)
+![Chip Program window](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/program8.png)
 
 
 If successfully programmed, `Programming Successful!` message is shown.
 
-![Programming successful](https://github.com/tanahome/S2DP_PIC12F509/blob/images/images/program9.png)
+![Programming successful](https://github.com/tanahome/S2DP_PIC12F509/blob/master/images/program9.png)
