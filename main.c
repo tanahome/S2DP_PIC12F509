@@ -63,7 +63,7 @@ void main()
     GPIO = 0x00;
 
     // wait system reset release
-    while (GP_RESET_ == RST_DISABLED)
+    while (GP_RESET_ == RST_ENABLED)
         __delay_ms(RST_POLLING_DELAY);
     
 #if PRE_UNLOCK_DELAY > 0
